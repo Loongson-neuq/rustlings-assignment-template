@@ -1,14 +1,15 @@
 ## Rustlings 作业
 
+如果还没有接受作业，在 [作业列表](https://github.com/Loongson-neuq) 中找到 rustlings 作业的链接，打开并接受作业。网页会给你创建一个仓库，以及这个仓库的链接。点击链接打开仓库页面。
+
 1. 在网络浏览器中用自己的 github id 登录 github.com。
 2. 本仓库已经自动建立好，可以直接看到你要完成的实验了：
 * 本地环境：
   1. **安装Linux的环境**。对于windows的用户，推荐使用wsl2安装Ubuntu 22.04，也可以使用vmware等虚拟机进行安装。如果在这一步存在问题，请联系助教。
   2. **本地安装rust**。进入linux环境下，参考 [第二周 Slides](https://loongson-neuq.pages.dev/p/os-week2-get-started-with-rust/) 中，找到Rust 开发环境配置的章节，相应配置即可，你可以同时将后续需要的环境也配置好.
-  3. **接受作业**。在 [作业列表](https://github.com/Loongson-neuq) 中找到 rustlings 作业的链接，打开并接受作业。网页会给你创建一个仓库，以及这个仓库的链接。点击链接打开仓库页面。
-  4. **clone实验仓库到本地**。在前面点击链接生成的仓库中，同样点击醒目的 `code` 绿色按钮，复制下面的链接。随后回到本地linux环境下，使用`git clone 复制的链接`的方式，将目标仓库clone到本地。随后，使用`ls`命令查看自己clone下来的文件夹，再使用`cd`命令进入到该文件夹下，使用  `cargo install --force --path .`  安装rustlings。
-  5. **练习rustlings**。使用VSCode等编辑器，进入clone下来的目录中，执行`rustlings watch`依次查看完成情况，并依次完成对应的练习。 执行`rustlings run 练习名称`去运行对应练习，也可以使用`rustlings hint 练习名称`查看题解。
-  6. **提交完成情况**。当做完部分或所有练习之后，在rustlings目录下执行 `git add .; git commit -m "update"; git push` 命令，把更新提交到GithubClassroom的CI进行自动评测。你可以在github仓库页面的actions分页看到你的CI评测过程。
+  3. **clone实验仓库到本地**。在前面点击链接生成的仓库中，同样点击醒目的 `code` 绿色按钮，复制下面的链接。随后回到本地linux环境下，使用`git clone 复制的链接`的方式，将目标仓库clone到本地。随后，使用`ls`命令查看自己clone下来的文件夹，再使用`cd`命令进入到该文件夹下，使用  `cargo install --force --path .`  安装rustlings。
+  4. **练习rustlings**。使用VSCode等编辑器，进入clone下来的目录中，执行`rustlings watch`依次查看完成情况，并依次完成对应的练习。 执行`rustlings run 练习名称`去运行对应练习，也可以使用`rustlings hint 练习名称`查看题解。
+  5. **提交完成情况**。当做完部分或所有练习之后，在rustlings目录下执行 `git add .; git commit -m "update"; git push` 命令，把更新提交到GithubClassroom的CI进行自动评测。你可以在github仓库页面的actions分页看到你的CI评测过程。
 
 **评测过程大约需要消耗 2 分钟，在评测结束后，你可以在 commit 的评论里或者 `grading-result` 分支的 `README.md` 内看到评测结果。**
 
